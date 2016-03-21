@@ -1,9 +1,10 @@
 $(document).ready(function() {
 
-	$('.bxslider').bxSlider({
+	var slider = $('.bxslider').bxSlider({
 		pager: true,
 		default: 'full'
 	});
+	slider.startAuto();
 	
 	/* wow ======================================= */
 
