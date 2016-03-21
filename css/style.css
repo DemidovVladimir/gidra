@@ -58,7 +58,7 @@ h3.center {
 }
 
 #hero-slides{
-	height: 520px;
+	height: 520px !important;
 }
 
 .welcome-content h2{
