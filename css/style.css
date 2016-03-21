@@ -53,8 +53,31 @@ h3.center {
 
 
 /* ------------------------ hero slider ------------------------ */
+.cover{
+	background-color: rgba(17, 83, 133, 0.5);
+	width: 100%;
+	height: 0;
+	padding-top: 39%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
 #hero-slider{
 	z-index: -1;
+}
+
+.bxslider{
+	width:100%;
+}
+
+.bxslider li{
+	text-align: center;
+}
+
+.bxslider li img{
+	width: 100%;
 }
 
 .welcome-content h2{
@@ -64,7 +87,7 @@ h3.center {
 .welcome-content {
 	position: absolute;
 	left: 0;
-	top: 50%;
+	top: 40%;
 	width: 100%;
 	margin-top: -10em;
 	z-index: 12;
@@ -72,7 +95,6 @@ h3.center {
 .hero-image-bg {
 	overflow: hidden;
 	background-size: cover;
-	background-image: url('../img/01.jpg');
 	background-position: center 16%;
 	position: relative;
 	padding: 180px 0 120px 0;

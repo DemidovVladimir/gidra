@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+	$('.bxslider').bxSlider({
+		pager: true,
+		default: 'full'
+	});
 	
 	/* wow ======================================= */
 
