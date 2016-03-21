@@ -57,6 +57,10 @@ h3.center {
 	z-index: -1;
 }
 
+#hero-slides{
+	height: 100%;
+}
+
 .welcome-content h2{
 	font-size: 80px;
 	font-weight: 200;
