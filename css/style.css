@@ -87,7 +87,7 @@ h3.center {
 .welcome-content {
 	position: absolute;
 	left: 0;
-	top: 40%;
+	top: 50%;
 	width: 100%;
 	margin-top: -10em;
 	z-index: 12;
@@ -1004,8 +1004,9 @@ form p {
 		height: 350px;
 	}
 	.welcome-content {
-		top: 43%;
+		top: 50%;
 	}
+
 	.welcome-content img {
 		padding: 0 15px; 
 	}
