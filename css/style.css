@@ -89,9 +89,24 @@ h3.center {
 	left: 0;
 	top: 50%;
 	width: 100%;
-	margin-top: -10em;
-	z-index: 12;
+	z-index: 2;
 }
+@media (min-width: 200px) and (max-width: 460px) {
+	.welcome-content {
+		top: 8%;
+	}
+}
+@media (min-width: 460px) and (max-width: 992px) {
+	.welcome-content {
+		top: 10%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1600px){
+	.welcome-content {
+		top: 15%;
+	}
+}
+
 .hero-image-bg {
 	overflow: hidden;
 	background-size: cover;
@@ -1002,9 +1017,6 @@ form p {
 	}
 	.modal-header {
 		height: 350px;
-	}
-	.welcome-content {
-		top: 50%;
 	}
 
 	.welcome-content img {
